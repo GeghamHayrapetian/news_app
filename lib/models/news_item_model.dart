@@ -7,7 +7,7 @@ class NewsItemModel {
     this.urlForDownloadImage,
   });
 
-  /// Return the news moel from json
+  /// Return the news model from json
   factory NewsItemModel.fromJson(Map<String, dynamic> json) {
     return NewsItemModel(
       newsSource: Source.fromJson(json['source']),
